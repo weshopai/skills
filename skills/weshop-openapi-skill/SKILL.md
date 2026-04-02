@@ -2,6 +2,7 @@
 name: weshop-openapi-skill
 description: Use this skill when the user wants to transform an existing image into a new generated result, such as replacing models, changing poses, swapping backgrounds, generating scenes, expanding image edges, removing backgrounds, or creating virtual try-on images. Use it for image-editing and image-generation tasks where a source image and text instructions need to be turned into one or more final images.
 compatibility: Requires HTTPS access to openapi.weshop.ai and a valid API key in the Authorization header
+metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"]}, "primaryEnv": "WESHOP_API_KEY"}}
 ---
 # WeShop Agent OpenAPI Integration
 

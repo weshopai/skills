@@ -62,7 +62,7 @@ That's it. The agent handles the rest.
 
 ### [`weshop-openapi-skill`](./skills/weshop-openapi-skill/)
 
-Covers all 6 agents:
+Covers 6 agents:
 
 - `aimodel` — fashion model generation & scene editing
 - `aiproduct` — product still-life & background editing

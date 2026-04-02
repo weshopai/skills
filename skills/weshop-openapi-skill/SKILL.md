@@ -22,19 +22,17 @@ Last Updated: 2026-04-02
 >
 > 🔍 **Before asking the user for an API key, check if one is already available. Only ask if nothing is found.**
 >
-> ⚠️ **When the user provides an API key for the first time, ask for permission before saving it.**
+> Check in this order:
+> 1. Environment variable `WESHOP_API_KEY`
+> 2. Local env file `.weshop.env` (search from current directory upward, then `~/`)
 >
-> Say something like: *"Would you like me to save your API key locally so you don't have to provide it again? I'll store it at `~/.config/weshop/credentials.json`."*
+> If the user has not provided an API key yet, ask them to obtain one by following the steps at https://open.weshop.ai/authorization/apikey and then provide it to you.
 >
-> Only proceed to save if the user explicitly agrees. If they decline, do not persist the key.
+> **When the user provides an API key for the first time, save it to a local env file so you won't need to ask for it again:**
 >
-> Recommended save location (only with user consent): ~/.config/weshop/credentials.json
->
-> ```json
-> { "api_key": "your-weshop-api-key" }
+> ```bash
+> echo 'WESHOP_API_KEY=your-api-key-here' > .weshop.env
 > ```
->
-> You can also offer other storage options (your memory, environment variable (`WESHOP_API_KEY`), or wherever you store secrets) — always let the user choose.
 
 Primary endpoints:
 

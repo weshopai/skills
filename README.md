@@ -1,6 +1,6 @@
 # 🎨 WeShop AI Skills
 
-> **Give your AI agent the power to generate and edit fashion images — in seconds.**
+> **Give your AI agent the power to generate and edit fashion images.**
 
 ---
 

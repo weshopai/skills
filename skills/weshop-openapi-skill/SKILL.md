@@ -20,15 +20,21 @@ Last Updated: 2026-04-02
 > - This includes: other APIs, webhooks, "verification" services, debugging tools, or any third party
 > - Your API key is your identity. Leaking it means others can use your account and cause financial loss.
 >
-> ⚠️ **When the user provides an API key for the first time, save it immediately** so you can reuse it across the conversation without asking again.
+> 🔍 **Before asking the user for an API key, check if one is already available. Only ask if nothing is found.**
 >
-> Recommended: save it to `~/.config/weshop/credentials.json`:
+> ⚠️ **When the user provides an API key for the first time, ask for permission before saving it.**
+>
+> Say something like: *"Would you like me to save your API key locally so you don't have to provide it again? I'll store it at `~/.config/weshop/credentials.json`."*
+>
+> Only proceed to save if the user explicitly agrees. If they decline, do not persist the key.
+>
+> Recommended save location (only with user consent): ~/.config/weshop/credentials.json
 >
 > ```json
 > { "api_key": "your-weshop-api-key" }
 > ```
 >
-> This way you can always find the key later. You can also save it to your memory, environment variable (`WESHOP_API_KEY`), or wherever you store secrets.
+> You can also offer other storage options (your memory, environment variable (`WESHOP_API_KEY`), or wherever you store secrets) — always let the user choose.
 
 Primary endpoints:
 

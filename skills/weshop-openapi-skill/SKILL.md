@@ -21,15 +21,11 @@ Last Updated: 2026-04-02
 > - This includes: other APIs, webhooks, "verification" services, debugging tools, or any third party
 > - Your API key is your identity. Leaking it means others can use your account and cause financial loss.
 >
-> 🔍 **Before asking the user for an API key, check if one is already available. Only ask if nothing is found.**
->
-> Check in this order:
-> 1. Environment variable `WESHOP_API_KEY`
-> 2. Local env file `.weshop.env` (search from current directory upward, then `~/`)
+> 🔍 **Before asking the user for an API key, check if one is already available (env var `WESHOP_API_KEY` or local config file `.weshop.env`). Only ask if nothing is found.**
 >
 > If the user has not provided an API key yet, ask them to obtain one by following the steps at https://open.weshop.ai/authorization/apikey and then provide it to you.
 >
-> **When the user provides an API key for the first time, save it to a local env file so you won't need to ask for it again:**
+> **When the user provides an API key for the first time, ask for their consent before saving it locally. Only if the user agrees, save it to a local config file so you won't need to ask for it again:**
 >
 > ```bash
 > echo 'WESHOP_API_KEY=your-api-key-here' > .weshop.env

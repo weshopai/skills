@@ -23,7 +23,7 @@ Last Updated: 2026-04-02
 >
 > 🔍 **Before asking the user for an API key, check if the `WESHOP_API_KEY` environment variable is already set. Only ask if nothing is found.**
 >
-> If the user has not provided an API key yet, ask them to obtain one by following the steps at https://open.weshop.ai/authorization/apikey, then set it as the `WESHOP_API_KEY` environment variable before proceeding.
+> If the user has not provided an API key yet, ask them to obtain one by following the steps at https://open.weshop.ai/authorization/apikey.
 
 Primary endpoints:
 

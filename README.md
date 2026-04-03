@@ -30,10 +30,11 @@ Instead of figuring out an API from scratch, your agent loads a skill and immedi
 
 ### 1. Add the skill to your agent
 
-Point your agent at the skill directory:
+Pick the skill that fits your agent's capabilities and point it at the skill directory:
 
 ```
-skills/weshop-openapi-skill/
+skills/weshop-cli-skill/     ← if your agent can run shell commands
+skills/weshop-openapi-skill/ ← if your agent can make HTTP requests
 ```
 
 ### 2. Get an API key
@@ -60,9 +61,9 @@ That's it. The agent handles the rest.
 
 ## 📦 Skills in this repo
 
-### [`weshop-openapi-skill`](./skills/weshop-openapi-skill/)
+### [`weshop-cli-skill`](./skills/weshop-cli-skill/)
 
-Covers 6 agents:
+For agents that run shell commands via the `weshop` CLI. Covers 6 agents plus `upload` and `status` utilities. Requires `weshop-cli` installed (`npm install -g weshop-cli@0.1.0`) and the `WESHOP_API_KEY` environment variable set.
 
 - `aimodel` — fashion model generation & scene editing
 - `aiproduct` — product still-life & background editing
@@ -70,6 +71,10 @@ Covers 6 agents:
 - `virtualtryon` — virtual try-on composition
 - `expandimage` — canvas expansion
 - `removeBG` — background removal / replacement
+
+### [`weshop-openapi-skill`](./skills/weshop-openapi-skill/)
+
+For agents that call the WeShop OpenAPI directly (HTTP). Covers the same 6 agents.
 
 ---
 

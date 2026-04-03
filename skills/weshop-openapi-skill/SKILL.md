@@ -146,6 +146,8 @@ When `maskType=custom`:
 
 Use for fashion model generation or model-scene editing.
 
+**Tips:** Use `locationId` / `fashionModelId` for best results (run `GET /openapi/v1/agent/info` to list available IDs). If using only `textDescription` without preset IDs, set `generatedContent` to `freeCreation`.
+
 **Run parameters**
 | Field | Type | Required | Notes |
 | --- | --- | --- | --- |
@@ -163,6 +165,8 @@ Use for fashion model generation or model-scene editing.
 ### `aiproduct` (`v1.0`)
 
 Use for product scene generation and product background editing.
+
+**Tips:** Use `locationId` for best results (run `GET /openapi/v1/agent/info` to list available IDs). If using only `textDescription` without preset IDs, set `generatedContent` to `freeCreation`.
 
 **Run parameters**
 | Field | Type | Required | Notes |

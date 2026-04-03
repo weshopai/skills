@@ -24,6 +24,8 @@ This skill uses the `weshop` CLI to generate and edit images.
 
 ## Prerequisites
 
+The `weshop` CLI is published at https://github.com/weshopai/weshop-cli and on npm as [`weshop-cli`](https://www.npmjs.com/package/weshop-cli).
+
 Run `weshop --version` to confirm the installed version matches `0.1.0`. If not, install with `npm install -g weshop-cli@0.1.0`.
 
 The CLI reads the API key from the `WESHOP_API_KEY` environment variable. If not set, ask the user to get one at https://open.weshop.ai/authorization/apikey and set it to the `WESHOP_API_KEY` environment variable.

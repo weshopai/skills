@@ -30,7 +30,21 @@ Instead of figuring out an API from scratch, your agent loads a skill and immedi
 
 ### 1. Add the skill to your agent
 
-Pick the skill that fits your agent's capabilities and point it at the skill directory:
+Pick the skill that fits your agent's capabilities and install it:
+
+```bash
+npx skills add weshopai/skills@weshop-cli-skill
+npx skills add weshopai/skills@weshop-openapi-skill
+```
+
+For OpenClaw users:
+
+```bash
+clawhub install weshop-cli-skill
+clawhub install weshop-openapi-skill
+```
+
+Or point your agent directly at the skill directory:
 
 ```
 skills/weshop-cli-skill/     ← if your agent can run shell commands

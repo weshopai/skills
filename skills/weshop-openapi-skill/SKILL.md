@@ -48,8 +48,20 @@ Interpretation rules:
 
 | Agent | Version | Use when |
 | --- | --- | --- |
+| `virtualtryon` | `v1.0` | Virtual try-on composition with optional model/location references |
+| `aimodel` | `v1.0` | Apparel model photos, model replacement, scene replacement |
+| `aiproduct` | `v1.0` | Product still-life generation and product background editing |
+| `aipose` | `v1.0` | Keep the garment but change the human pose |
+| `expandimage` | `v1.0` | Expand the canvas; added area is AI-generated |
+| `removeBG` | `v1.0` | Remove background or replace with solid color |
 
 For agent-specific parameters, read the corresponding reference file:
+- [aimodel](references/aimodel.md)
+- [aiproduct](references/aiproduct.md)
+- [aipose](references/aipose.md)
+- [expandimage](references/expandimage.md)
+- [removeBG](references/removeBG.md)
+- [virtualtryon](references/virtualtryon.md)
 
 ## Recommended workflow
 

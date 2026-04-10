@@ -60,13 +60,19 @@ For OpenClaw users:
 ```bash
 clawhub install weshop-cli-skill
 clawhub install weshop-openapi-skill
+
+# Or install a specific agent skill
+clawhub install virtualtryon-cli-skill
+clawhub install aimodel-openapi-skill
 ```
 
 Or point your agent directly at the skill directory:
 
 ```
-skills/weshop-cli-skill/     ← if your agent can run shell commands
-skills/weshop-openapi-skill/ ← if your agent can make HTTP requests
+skills/weshop-cli-skill/          ← bundle: all agents, shell commands
+skills/weshop-openapi-skill/      ← bundle: all agents, HTTP requests
+skills/virtualtryon-cli-skill/    ← single agent example
+skills/virtualtryon-openapi-skill/
 ```
 
 ### 2. Get an API key

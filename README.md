@@ -37,9 +37,23 @@ Instead of figuring out an API from scratch, your agent loads a skill and immedi
 Pick the skill that fits your agent's capabilities and install it:
 
 ```bash
-npx skills add weshopai/skills@weshop-cli-skill
-npx skills add weshopai/skills@weshop-openapi-skill
+npx skills add weshopai/skills --skill weshop-cli-skill
+npx skills add weshopai/skills --skill weshop-openapi-skill
 ```
+
+These two bundle skills cover all WeShop agents. If you only need a specific agent, install its dedicated skill directly:
+
+```bash
+# CLI variant (for agents that run shell commands)
+npx skills add weshopai/skills --skill virtualtryon-cli-skill
+npx skills add weshopai/skills --skill aimodel-cli-skill
+
+# OpenAPI variant (for agents that make HTTP requests)
+npx skills add weshopai/skills --skill virtualtryon-openapi-skill
+npx skills add weshopai/skills --skill aimodel-openapi-skill
+```
+
+Each agent has both a `-cli-skill` and an `-openapi-skill` variant. See the full list below.
 
 For OpenClaw users:
 

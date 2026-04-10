@@ -8,6 +8,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"]}, "primaryEnv": "
 
 Last Updated: 2026-04-03
 
+🌐 **Official page:** https://www.weshop.ai/tools
+
 ## OpenAPI and endpoint surface
 
 - Spec URL: `GET https://openapi.weshop.ai/openapi/agent/openapi.yaml`

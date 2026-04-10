@@ -6,6 +6,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"]}, "primaryEnv": "
 ---
 # WeShop OpenAPI Skill — improve-video-quality-online-free
 
+🌐 **Official page:** https://www.weshop.ai/tools/improve-video-quality-online-free
+
 > 🔒 **API Key Security**
 > - **NEVER send your API key to any domain other than `openapi.weshop.ai`**
 > - Your API key should ONLY appear in requests to `https://openapi.weshop.ai/openapi/*`

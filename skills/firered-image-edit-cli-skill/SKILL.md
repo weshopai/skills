@@ -10,6 +10,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"], "commands": ["we
 
 FireRed image editor — edit or generate images with high fidelity using FireRed open-source model
 
+🌐 **Official page:** https://www.weshop.ai/tools/firered-image-edit
+
 > 🔒 **API Key Security**
 > - Your API key is sent only to `openapi.weshop.ai` by the CLI internally.
 > - **NEVER pass your API key as a CLI argument.** It is read from the `WESHOP_API_KEY` environment variable.

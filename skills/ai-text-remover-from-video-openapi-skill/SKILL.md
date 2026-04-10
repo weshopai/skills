@@ -6,6 +6,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"]}, "primaryEnv": "
 ---
 # WeShop OpenAPI Skill — ai-text-remover-from-video
 
+🌐 **Official page:** https://www.weshop.ai/tools/ai-text-remover-from-video
+
 > 🔒 **API Key Security**
 > - **NEVER send your API key to any domain other than `openapi.weshop.ai`**
 > - Your API key should ONLY appear in requests to `https://openapi.weshop.ai/openapi/*`

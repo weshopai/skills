@@ -10,6 +10,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"], "commands": ["we
 
 AI PS2 filter — transform a photo into a retro PS2-era Sims game character
 
+🌐 **Official page:** https://www.weshop.ai/tools/ps2-filter
+
 > 🔒 **API Key Security**
 > - Your API key is sent only to `openapi.weshop.ai` by the CLI internally.
 > - **NEVER pass your API key as a CLI argument.** It is read from the `WESHOP_API_KEY` environment variable.

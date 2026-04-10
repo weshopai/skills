@@ -10,6 +10,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"], "commands": ["we
 
 AI age progression — transform a portrait to show how the person will look older
 
+🌐 **Official page:** https://www.weshop.ai/tools/ai-aging
+
 > 🔒 **API Key Security**
 > - Your API key is sent only to `openapi.weshop.ai` by the CLI internally.
 > - **NEVER pass your API key as a CLI argument.** It is read from the `WESHOP_API_KEY` environment variable.

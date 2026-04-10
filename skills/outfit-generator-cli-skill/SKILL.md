@@ -10,6 +10,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"], "commands": ["we
 
 AI outfit generator — redesign a complete outfit on a person photo based on style prompt
 
+🌐 **Official page:** https://www.weshop.ai/tools/outfit-generator
+
 > 🔒 **API Key Security**
 > - Your API key is sent only to `openapi.weshop.ai` by the CLI internally.
 > - **NEVER pass your API key as a CLI argument.** It is read from the `WESHOP_API_KEY` environment variable.

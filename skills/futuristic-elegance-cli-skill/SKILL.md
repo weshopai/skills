@@ -10,6 +10,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"], "commands": ["we
 
 Dress a person in futuristic harajuku fashion — cinematic sci-fi outfit transformation
 
+🌐 **Official page:** https://www.weshop.ai/tools/futuristic-elegance
+
 > 🔒 **API Key Security**
 > - Your API key is sent only to `openapi.weshop.ai` by the CLI internally.
 > - **NEVER pass your API key as a CLI argument.** It is read from the `WESHOP_API_KEY` environment variable.

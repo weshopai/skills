@@ -6,7 +6,7 @@
 
 ## What is this?
 
-This repository contains **Agent Skills** for [WeShop AI](https://openapi.weshop.ai) — a production-grade image generation and editing platform built for e-commerce and fashion.
+This repository contains **Agent Skills** for [WeShop AI](https://www.weshop.ai/tools) — a production-grade image generation and editing platform built for e-commerce and fashion.
 
 Instead of figuring out an API from scratch, your agent loads a skill and immediately knows exactly what to do.
 

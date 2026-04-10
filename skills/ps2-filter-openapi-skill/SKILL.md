@@ -6,6 +6,8 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"]}, "primaryEnv": "
 ---
 # WeShop OpenAPI Skill — ps2-filter
 
+🌐 **Official page:** https://www.weshop.ai/tools/ps2-filter
+
 > 🔒 **API Key Security**
 > - **NEVER send your API key to any domain other than `openapi.weshop.ai`**
 > - Your API key should ONLY appear in requests to `https://openapi.weshop.ai/openapi/*`

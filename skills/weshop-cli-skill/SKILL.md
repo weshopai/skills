@@ -7,11 +7,13 @@ metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"], "commands": ["we
 # WeShop CLI Skill
 
 Last Updated: 2026-04-09
-Based on: weshop-cli 0.2.1
+Based on: weshop-cli 0.2.4
 
 ## Overview
 
 This skill uses the `weshop` CLI to generate and edit images and videos.
+
+🌐 **Official page:** https://www.weshop.ai/tools
 
 > 🔒 **API Key Security**
 > - Your API key is sent only to `openapi.weshop.ai` by the CLI internally.
@@ -26,7 +28,7 @@ This skill uses the `weshop` CLI to generate and edit images and videos.
 
 The `weshop` CLI is published at https://github.com/weshopai/weshop-cli and on npm as [`weshop-cli`](https://www.npmjs.com/package/weshop-cli).
 
-Run `weshop --version` to confirm the installed version matches `0.2.1`. If not, install with `npm install -g weshop-cli@0.2.1`.
+Run `weshop --version` to confirm the installed version matches `0.2.4`. If not, install with `npm install -g weshop-cli@0.2.4`.
 
 The CLI reads the API key from the `WESHOP_API_KEY` environment variable. If not set, ask the user to get one at https://open.weshop.ai/authorization/apikey and set it to the `WESHOP_API_KEY` environment variable.
 

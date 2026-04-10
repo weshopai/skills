@@ -1,17 +1,18 @@
 # aipose (v1.0)
 
-Change the human pose while preserving the garment.
+Keep the garment but change the human pose
 
 ## Input fields
 
 | Field | Type | Required | Notes |
 | --- | --- | --- | --- |
-| `input.originalImage` | string(url) | Yes | Publicly reachable source image URL |
+| `input.originalImage` | string(url) | Yes | Source image URL |
 
 ## Run parameters
 
 | Field | Type | Required | Notes |
 | --- | --- | --- | --- |
-| `textDescription` | string | Yes | Pose instruction |
-| `generateVersion` | string | No | `lite` or `pro`, default `lite` |
-| `batchCount` | int | No | Range `1-16`, default `4` |
+| `originalImage` | string | Yes | Source image URL |
+| `textDescription` | string | Yes | Pose instruction describing the desired pose |
+| `generateVersion` | string | No | Generation quality. lite: fast (default); pro: higher quality, slower; `lite`, `pro`; default `lite` |
+| `batchCount` | integer | No | Number of images to generate; default `1`; range `1-16` |

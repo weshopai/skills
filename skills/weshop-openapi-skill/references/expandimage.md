@@ -6,14 +6,15 @@ Expand the canvas to a target size. The original image is placed within the new 
 
 | Field | Type | Required | Notes |
 | --- | --- | --- | --- |
-| `input.originalImage` | string(url) | Yes | Publicly reachable source image URL |
+| `input.originalImage` | string(url) | Yes | Source image URL |
 
 ## Run parameters
 
 | Field | Type | Required | Notes |
 | --- | --- | --- | --- |
-| `targetWidth` | int | Yes | Maximum `4096` |
-| `targetHeight` | int | Yes | Maximum `4096` |
-| `fillLeft` | int | No | Distance from left edge of target canvas to left edge of original image. Defaults to centered |
-| `fillTop` | int | No | Distance from top edge of target canvas to top edge of original image. Defaults to centered |
-| `batchCount` | int | No | Range `1-16`, default `4` |
+| `originalImage` | string | Yes | Source image URL |
+| `targetWidth` | integer | Yes | Target canvas width in pixels; max 4096; max `4096` |
+| `targetHeight` | integer | Yes | Target canvas height in pixels; max 4096; max `4096` |
+| `fillLeft` | integer | No | Horizontal offset (px) from left edge of canvas to left edge of original image. Defaults to centered |
+| `fillTop` | integer | No | Vertical offset (px) from top edge of canvas to top edge of original image. Defaults to centered |
+| `batchCount` | integer | No | Number of images to generate; default `1`; range `1-16` |

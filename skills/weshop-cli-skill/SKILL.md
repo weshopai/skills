@@ -212,6 +212,16 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `upload` | Upload a local image and get a reusable URL |
 | `status` | Check the status of a run by execution ID |
 | `info` | List available preset IDs (scenes, models, background colors) for use with `--location-id`, `--model-id`, or `--bg-id` |
+| `ai-couple-photo-maker` | AI couple photo maker — combine two portrait photos into one realistic romantic couple image |
+| `ai-headshot-generator` | AI headshot generator — create professional ID-style headshots from a single portrait photo |
+| `photo-wrinkle-remover` | Photo wrinkle remover — smooth facial wrinkles in portrait photos while keeping natural skin texture |
+| `ai-blemish-remover` | AI blemish remover — clean up acne and blemishes while keeping natural skin and facial details |
+| `ai-infographic-generator` | AI infographic generator — turn a text description into a professional infographic layout |
+| `ai-logo-generator` | AI logo generator — design brand logos from text descriptions, no reference image required |
+| `flowchart-generator` | AI flowchart generator — create clear flowcharts from structured text descriptions |
+| `ai-shirt-remover` | AI shirt remover — transform a shirt outfit photo into a bikini look image or video |
+| `ai-pants-remover` | AI pants remover — transform pants outfit photos into bikini look images or videos |
+| `ai-lingerie-remover` | AI lingerie remover — transform lingerie outfit photos into bikini look images or videos |
 
 ## Recommended workflow
 

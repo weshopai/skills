@@ -212,6 +212,23 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `upload` | Upload a local image and get a reusable URL |
 | `status` | Check the status of a run by execution ID |
 | `info` | List available preset IDs (scenes, models, background colors) for use with `--location-id`, `--model-id`, or `--bg-id` |
+| `ai-couple-photo-maker` | AI couple photo maker — combine two portrait photos into one realistic romantic couple image |
+| `ai-headshot-generator` | AI headshot generator — create professional ID-style headshots from a single portrait photo |
+| `photo-wrinkle-remover` | Photo wrinkle remover — smooth facial wrinkles in portrait photos while keeping natural skin texture |
+| `ai-blemish-remover` | AI blemish remover — clean up acne and blemishes while keeping natural skin and facial details |
+| `ai-infographic-generator` | AI infographic generator — turn a text description into a professional infographic layout |
+| `ai-logo-generator` | AI logo generator — design brand logos from text descriptions, no reference image required |
+| `flowchart-generator` | AI flowchart generator — create clear flowcharts from structured text descriptions |
+| `ai-shirt-remover` | AI shirt remover — transform a shirt outfit photo into a bikini look image or video |
+| `ai-pants-remover` | AI pants remover — transform pants outfit photos into bikini look images or videos |
+| `ai-lingerie-remover` | AI lingerie remover — transform lingerie outfit photos into bikini look images or videos |
+| `nano-banana-edit` | Nano Banana image editor — generate or edit images with Nano Banana, Nano Banana Pro, or Nano Banana 2 using Google's Gemini-based models |
+| `gpt-image` | GPT Image 2 image generator — create high-quality images, text-rich visuals, and product photography from prompts |
+| `hailuo-ai` | Hailuo AI video generator — create cinematic AI videos from images and text using MiniMax Hailuo models |
+| `happyhorse` | HappyHorse AI video generator — create cinematic text-to-video and image-to-video clips with native 1080p output |
+| `kling-motion-control` | Kling Motion Control — transfer motion from a reference video onto a character image with identity preservation |
+| `veo-ai` | Veo 3 AI video generator — create cinematic videos from images and text using Google Veo 3.1 models |
+| `vidu-ai` | Vidu Q3 AI video generator — create cinematic short videos with Vidu Q3 Pro or Pro Fast modes |
 
 ## Recommended workflow
 

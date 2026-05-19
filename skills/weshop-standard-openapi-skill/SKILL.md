@@ -1,5 +1,5 @@
 ---
-name: weshop-openapi-skill
+name: weshop-standard-openapi-skill
 description: Use this skill for image and video generation, editing, and transformation tasks — virtual try-on, model swap, background replace, pose change, canvas expand, background removal, AI video generation, video enhancement, and more.
 compatibility: Requires HTTPS access to openapi.weshop.ai
 metadata: {"openclaw": {"requires": {"env": ["WESHOP_API_KEY"]}, "primaryEnv": "WESHOP_API_KEY"}}
@@ -50,12 +50,6 @@ Interpretation rules:
 
 | Agent | Version | Use when |
 | --- | --- | --- |
-| `virtualtryon` | `v1.0` | Virtual try-on — put a garment onto a generated model with optional model/background references |
-| `aimodel` | `v1.0` | Fashion model photos — replace the model, swap the scene or background while keeping the garment |
-| `aiproduct` | `v1.0` | Product still-life photos — replace or enhance the background around a product |
-| `aipose` | `v1.0` | Change the human pose in a photo while keeping the garment unchanged |
-| `expandimage` | `v1.0` | Expand the canvas to a larger size — AI fills the new area to blend naturally |
-| `removeBG` | `v1.0` | Remove the background or replace it with a solid color |
 | `sora-2` | `v1.0` | Cinematic video generation with realistic physics using OpenAI Sora 2 |
 | `2d-to-3d-image-converter` | `v1.0` | AI 2D to 3D image converter — transform a flat 2D image into a 3D rendered version |
 | `ai-3d-rendering` | `v1.0` | AI 3D rendering — transform a photo into a Blender-style 3D model viewport screenshot |
@@ -189,12 +183,6 @@ Interpretation rules:
 | `vidu-ai` | `v1.0` | Vidu Q3 AI video generator — create cinematic short videos with Vidu Q3 Pro or Pro Fast modes |
 
 For agent-specific parameters, read the corresponding reference file:
-- [aimodel](references/aimodel.md)
-- [aiproduct](references/aiproduct.md)
-- [aipose](references/aipose.md)
-- [expandimage](references/expandimage.md)
-- [removeBG](references/removeBG.md)
-- [virtualtryon](references/virtualtryon.md)
 - [sora-2](references/sora-2.md)
 - [2d-to-3d-image-converter](references/2d-to-3d-image-converter.md)
 - [ai-3d-rendering](references/ai-3d-rendering.md)
@@ -377,7 +365,7 @@ Example response shape for an image agent:
 {
   "success": true,
   "data": {
-    "agentName": "aimodel",
+    "agentName": "ai-bikini-model",
     "agentVersion": "v1.0",
     "initParams": {
       "taskName": "optional",
@@ -445,15 +433,15 @@ curl --location 'https://openapi.weshop.ai/openapi/agent/runs' \
 --header 'Authorization: <API Key>' \
 --header 'Content-Type: application/json' \
 --data '{
-  "agent": { "name": "aimodel", "version": "v1.0" },
+  "agent": { "name": "ai-bikini-model", "version": "v1.0" },
   "input": {
     "taskName": "agent-native-sample",
-    "originalImage": "https://ai-image.weshop.ai/example.png"
   },
   "params": {
-    "generatedContent": "freeCreation",
-    "maskType": "autoApparelSegment",
-    "textDescription": "street style fashion photo",
+    "images": [
+      "https://ai-image.weshop.ai/example.png"
+    ],
+    "textDescription": "naturally undress and change the outfit into a thin bikini while keeping body proportions natural.",
     "batchCount": 1
   }
 }'
@@ -467,4 +455,4 @@ curl --location 'https://openapi.weshop.ai/openapi/agent/assets/images' \
 --form 'image=@"/path/to/your-image.png"'
 ```
 
-Use the returned `data.image` value as `input.originalImage`.
+Use the returned `data.image` value as `params.images[0]`.

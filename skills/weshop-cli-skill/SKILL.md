@@ -222,6 +222,13 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `ai-shirt-remover` | AI shirt remover — transform a shirt outfit photo into a bikini look image or video |
 | `ai-pants-remover` | AI pants remover — transform pants outfit photos into bikini look images or videos |
 | `ai-lingerie-remover` | AI lingerie remover — transform lingerie outfit photos into bikini look images or videos |
+| `nano-banana-edit` | Nano Banana image editor — generate or edit images with Nano Banana, Nano Banana Pro, or Nano Banana 2 using Google's Gemini-based models |
+| `gpt-image` | GPT Image 2 image generator — create high-quality images, text-rich visuals, and product photography from prompts |
+| `hailuo-ai` | Hailuo AI video generator — create cinematic AI videos from images and text using MiniMax Hailuo models |
+| `happyhorse` | HappyHorse AI video generator — create cinematic text-to-video and image-to-video clips with native 1080p output |
+| `kling-motion-control` | Kling Motion Control — transfer motion from a reference video onto a character image with identity preservation |
+| `veo-ai` | Veo 3 AI video generator — create cinematic videos from images and text using Google Veo 3.1 models |
+| `vidu-ai` | Vidu Q3 AI video generator — create cinematic short videos with Vidu Q3 Pro or Pro Fast modes |
 
 ## Recommended workflow
 

@@ -180,6 +180,13 @@ Interpretation rules:
 | `ai-shirt-remover` | `v1.0` | AI shirt remover — transform a shirt outfit photo into a bikini look image or video |
 | `ai-pants-remover` | `v1.0` | AI pants remover — transform pants outfit photos into bikini look images or videos |
 | `ai-lingerie-remover` | `v1.0` | AI lingerie remover — transform lingerie outfit photos into bikini look images or videos |
+| `nano-banana-edit` | `v1.0` | Nano Banana image editor — generate or edit images with Nano Banana, Nano Banana Pro, or Nano Banana 2 using Google's Gemini-based models |
+| `gpt-image` | `v1.0` | GPT Image 2 image generator — create high-quality images, text-rich visuals, and product photography from prompts |
+| `hailuo-ai` | `v1.0` | Hailuo AI video generator — create cinematic AI videos from images and text using MiniMax Hailuo models |
+| `happyhorse` | `v1.0` | HappyHorse AI video generator — create cinematic text-to-video and image-to-video clips with native 1080p output |
+| `kling-motion-control` | `v1.0` | Kling Motion Control — transfer motion from a reference video onto a character image with identity preservation |
+| `veo-ai` | `v1.0` | Veo 3 AI video generator — create cinematic videos from images and text using Google Veo 3.1 models |
+| `vidu-ai` | `v1.0` | Vidu Q3 AI video generator — create cinematic short videos with Vidu Q3 Pro or Pro Fast modes |
 
 For agent-specific parameters, read the corresponding reference file:
 - [aimodel](references/aimodel.md)
@@ -312,6 +319,13 @@ For agent-specific parameters, read the corresponding reference file:
 - [ai-shirt-remover](references/ai-shirt-remover.md)
 - [ai-pants-remover](references/ai-pants-remover.md)
 - [ai-lingerie-remover](references/ai-lingerie-remover.md)
+- [nano-banana-edit](references/nano-banana-edit.md)
+- [gpt-image](references/gpt-image.md)
+- [hailuo-ai](references/hailuo-ai.md)
+- [happyhorse](references/happyhorse.md)
+- [kling-motion-control](references/kling-motion-control.md)
+- [veo-ai](references/veo-ai.md)
+- [vidu-ai](references/vidu-ai.md)
 
 ## Recommended workflow
 

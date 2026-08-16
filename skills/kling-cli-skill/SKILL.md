@@ -36,11 +36,15 @@ The CLI reads the API key from the `WESHOP_API_KEY` environment variable. If not
 AI video generation — create cinematic videos from images and text using Kling.
 Results come back in video[N].url.
 
+Provide one image as the first frame, or two images as first frame + last frame.
+Image 1 is the first frame; image 2 is the last frame.
+Last frame is supported for Kling_3_0, Kling_2_6, Kling_2_5_Turbo, and Kling_2_1 (not Kling_2_1_Master).
+
 Model (--model):
   Kling_3_0         Kling 3.0 — latest, supports 3s-15s duration and audio (default)
   Kling_2_6         Kling 2.6 — supports audio
   Kling_2_5_Turbo   Kling 2.5 Turbo — fast generation
-  Kling_2_1_Master  Kling 2.1 Master — high quality
+  Kling_2_1_Master  Kling 2.1 Master — high quality; first frame only
   Kling_2_1         Kling 2.1
 
 Duration (--duration):
@@ -49,13 +53,14 @@ Duration (--duration):
 
 Examples:
   weshop kling --image ./scene.png --prompt 'Camera slowly pans across a misty forest'
+  weshop kling --image ./first.png --image ./last.png --prompt 'Person walks from the doorway to the window' --model Kling_3_0
   weshop kling --image ./portrait.png --prompt 'Person turns and smiles' --model Kling_3_0 --duration 5s
 
 ### Parameters
 
 | Option | Type | Required | Default | Enum |
 | --- | --- | --- | --- | --- |
-| `--image` | array | Yes |  |  |
+| `--image` | array (1–2) | Yes |  |  |
 | `--prompt` | string | Yes |  |  |
 | `--model` | string | No | `Kling_3_0` | `Kling_3_0`, `Kling_2_6`, `Kling_2_5_Turbo`, `Kling_2_1_Master`, `Kling_2_1` |
 | `--duration` | string | No | `5s` |  |

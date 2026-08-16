@@ -6,13 +6,13 @@ Cinematic AI video generation using Seedance by ByteDance
 
 | Field | Type | Required | Notes |
 | --- | --- | --- | --- |
-| `input.images` | array | Yes | Input image URL |
+| `input.images` | array | Yes | Input / reference image URLs (1–9; multi-image best with Seedance_20) |
 
 ## Run parameters
 
 | Field | Type | Required | Notes |
 | --- | --- | --- | --- |
-| `images` | array | Yes | Input image URL; up to 1 |
+| `images` | array | Yes | Input / reference image URLs (1–9; multi-image best with Seedance_20); up to 9 |
 | `textDescription` | string | Yes | Describe the desired video scene |
 | `modelName` | string | No | Seedance model version; `Seedance_20`, `Seedance_15_Pro`, `Seedance_10_Pro`, `Seedance_10_Pro_Fast`; default `Seedance_20` |
 | `duration` | string | No | Video duration (Seedance_20/1.5_Pro: 4s-15s; 1.0_Pro/Fast: 2s-12s); default `4s` |

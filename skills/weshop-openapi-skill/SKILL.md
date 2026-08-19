@@ -187,6 +187,11 @@ Interpretation rules:
 | `kling-motion-control` | `v1.0` | Kling Motion Control — transfer motion from a reference video onto a character image with identity preservation |
 | `veo-ai` | `v1.0` | Veo 3 AI video generator — create cinematic videos from images and text using Google Veo 3.1 models |
 | `vidu-ai` | `v1.0` | Vidu Q3 AI video generator — create cinematic short videos with Vidu Q3 Pro or Pro Fast modes |
+| `sulphur2` | `v1.0` | Sulphur 2 AI video generator — create cinematic short videos from a still image and prompt using the LTX 2.3 video model |
+| `kling-v3-omni` | `v1.0` | Kling 3.0 Omni — create multimodal AI videos from text, reference images, and an optional reference video, with native audio |
+| `kling-O1` | `v1.0` | Kling O1 AI video generator — create cinematic videos with Omni One control via text, reference images, first/last frames, or a reference video |
+| `minimax-h3` | `v1.0` | MiniMax H3 — build multimodal AI videos from text, reference images, and optional reference videos and audio, including image-to-video first/last frame control |
+| `seedance-25` | `v1.0` | Seedance 2.5 — create native 4–30 second cinematic videos from text, with optional reference images, videos, and audio by ByteDance |
 
 For agent-specific parameters, read the corresponding reference file:
 - [aimodel](references/aimodel.md)
@@ -326,6 +331,11 @@ For agent-specific parameters, read the corresponding reference file:
 - [kling-motion-control](references/kling-motion-control.md)
 - [veo-ai](references/veo-ai.md)
 - [vidu-ai](references/vidu-ai.md)
+- [sulphur2](references/sulphur2.md)
+- [kling-v3-omni](references/kling-v3-omni.md)
+- [kling-O1](references/kling-O1.md)
+- [minimax-h3](references/minimax-h3.md)
+- [seedance-25](references/seedance-25.md)
 
 ## Recommended workflow
 

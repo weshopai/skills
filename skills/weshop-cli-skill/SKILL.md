@@ -229,6 +229,11 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `kling-motion-control` | Kling Motion Control — transfer motion from a reference video onto a character image with identity preservation |
 | `veo-ai` | Veo 3 AI video generator — create cinematic videos from images and text using Google Veo 3.1 models |
 | `vidu-ai` | Vidu Q3 AI video generator — create cinematic short videos with Vidu Q3 Pro or Pro Fast modes |
+| `sulphur2` | Sulphur 2 AI video generator — create cinematic short videos from a still image and prompt using the LTX 2.3 video model |
+| `kling-v3-omni` | Kling 3.0 Omni — create multimodal AI videos from text, reference images, and an optional reference video, with native audio |
+| `kling-O1` | Kling O1 AI video generator — create cinematic videos with Omni One control via text, reference images, first/last frames, or a reference video |
+| `minimax-h3` | MiniMax H3 — build multimodal AI videos from text, reference images, and optional reference videos and audio, including image-to-video first/last frame control |
+| `seedance-25` | Seedance 2.5 — create native 4–30 second cinematic videos from text, with optional reference images, videos, and audio by ByteDance |
 
 ## Recommended workflow
 

@@ -96,7 +96,7 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `expandimage` | Expand the canvas to a larger size — AI fills the new area to blend naturally |
 | `removebg` | Remove the background or replace it with a solid color |
 | `qwen-image-edit` | AI image editing — edit or generate images with natural language instructions using Qwen |
-| `seedream` | AI image generation — create and edit images using Seedream 5.0 model by ByteDance |
+| `seedream` | AI image generation — create and edit images using Seedream 5.0 Pro or Lite by ByteDance |
 | `face-forge` | AI face morph and face swap — generate or transform portraits |
 | `kling` | AI video generation — create cinematic videos from images and text using Kling |
 | `z-image` | AI image generation — create high-quality images from text with Z-Image by Alibaba |
@@ -172,7 +172,7 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `midjourney` | Midjourney image generator — create high-quality images using Midjourney v6.1, v7, or Niji 6 |
 | `sora-2` | Cinematic video generation with realistic physics using OpenAI Sora 2 |
 | `wan-ai` | Wan AI video generator — create AI videos from images and text using Wan AI |
-| `seedance` | Seedance video generator — create cinematic AI videos using Seedance 2.0 by ByteDance |
+| `seedance` | Seedance video generator — create cinematic AI videos using Seedance 2.0, 2.0 Mini, 1.5 Pro, or 1.0 by ByteDance |
 | `firered-image-edit` | FireRed image editor — edit or generate images with high fidelity using FireRed open-source model |
 | `grok-imagine` | Grok Imagine image generator — create high-resolution images from text using xAI Aurora |
 | `grok-imagine-video` | Grok Imagine video generator — create cinematic AI videos with native audio using xAI |

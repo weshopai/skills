@@ -172,7 +172,7 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `midjourney` | Midjourney image generator — create high-quality images using Midjourney v6.1, v7, or Niji 6 |
 | `sora-2` | Cinematic video generation with realistic physics using OpenAI Sora 2 |
 | `wan-ai` | Wan AI video generator — create AI videos from images and text using Wan AI |
-| `seedance` | Seedance video generator — create cinematic AI videos using Seedance 2.0, 2.0 Mini, 1.5 Pro, or 1.0 by ByteDance |
+| `seedance` | Seedance video generator — create cinematic AI videos using Seedance 2.0, 2.0 Mini, or 1.0 by ByteDance |
 | `firered-image-edit` | FireRed image editor — edit or generate images with high fidelity using FireRed open-source model |
 | `grok-imagine` | Grok Imagine image generator — create high-resolution images from text using xAI Aurora |
 | `grok-imagine-video` | Grok Imagine video generator — create cinematic AI videos with native audio using xAI |

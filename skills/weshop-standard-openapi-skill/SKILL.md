@@ -146,7 +146,7 @@ Interpretation rules:
 | `remove-text-from-video-online-free` | `v1.0` | Remove text from video online free — remove text overlays or watermarks from a video |
 | `replace-face-in-video-online-free` | `v1.0` | AI video face swap — replace a face in a video with a reference face photo |
 | `see-through-clothes-fitler` | `v1.0` | See-through clothes filter — make clothing appear sheer and see-through |
-| `seedance` | `v1.0` | Seedance video generator — create cinematic AI videos using Seedance 2.0, 2.0 Mini, 1.5 Pro, or 1.0 by ByteDance |
+| `seedance` | `v1.0` | Seedance video generator — create cinematic AI videos using Seedance 2.0, 2.0 Mini, or 1.0 by ByteDance |
 | `seedream` | `v1.0` | AI image generation — create and edit images using Seedream 5.0 Pro or Lite by ByteDance |
 | `sex-ai-generator` | `v1.0` | Sex AI generator — transform a person photo into a bikini model image or video |
 | `sexy-ai-pics` | `v1.0` | AI sexy pics generator — generate stylish and attractive photos from a person image |

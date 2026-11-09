@@ -129,7 +129,7 @@ Interpretation rules:
 | `image-mixer` | `v1.0` | Image mixer — naturally merge two photos into a single cohesive image |
 | `image-to-sketch` | `v1.0` | AI image to sketch — convert a photo into a rough pencil sketch |
 | `improve-video-quality-online-free` | `v1.0` | Improve video quality online free — upscale and enhance video quality using AI |
-| `kling` | `v1.0` | AI video generation — create cinematic videos from images and text using Kling |
+| `kling` | `v1.0` | Kling video generation — existing Kling 3.0 first/last-frame CLI default, with optional Kling 4.0 Reference and I2V |
 | `logo-remover-from-video` | `v1.0` | Logo remover from video — remove logos or watermarks from a video |
 | `midjourney` | `v1.0` | Midjourney image generator — create high-quality images using Midjourney v6.1, v7, or Niji 6 |
 | `mugshot-creator` | `v1.0` | AI mugshot creator — generate a police-style mugshot photo from a portrait |
@@ -160,7 +160,7 @@ Interpretation rules:
 | `video-resolution-enhancer-online-free` | `v1.0` | Video resolution enhancer online free — upscale and enhance video resolution using AI |
 | `video-upscaler-online-free` | `v1.0` | Video upscaler online free — upscale and enhance video quality using AI |
 | `video-watermark-remover` | `v1.0` | AI video watermark remover — remove watermarks, logos, or text from a video |
-| `wan-ai` | `v1.0` | Wan AI video generator — create AI videos from images and text using Wan AI |
+| `wan-ai` | `v1.0` | Wan video generation — unchanged Wan 2.5 CLI default, with optional Wan 3.0 Reference and I2V |
 | `wild-graffiti-generator` | `v1.0` | AI wild graffiti generator — create wild-style spray paint graffiti art from text or image |
 | `z-image` | `v1.0` | AI image generation — create high-quality images from text with Z-Image by Alibaba |
 | `ai-generated-bikini-girls` | `v1.0` | AI generated bikini girls — transform a person photo into a bikini model image or video |
@@ -174,7 +174,7 @@ Interpretation rules:
 | `ai-shirt-remover` | `v1.0` | AI shirt remover — transform a shirt outfit photo into a bikini look image or video |
 | `ai-pants-remover` | `v1.0` | AI pants remover — transform pants outfit photos into bikini look images or videos |
 | `ai-lingerie-remover` | `v1.0` | AI lingerie remover — transform lingerie outfit photos into bikini look images or videos |
-| `nano-banana-edit` | `v1.0` | Nano Banana image editor — generate or edit images with Nano Banana, Nano Banana Pro, or Nano Banana 2 using Google's Gemini-based models |
+| `nano-banana-edit` | `v1.0` | Nano Banana image editor — generate or edit images with Nano Banana, Pro, 2, or 2.1; CLI default stays Nano Banana 2 |
 | `gpt-image` | `v1.0` | GPT Image 2 and 2.5 image generator — create high-quality images, text-rich visuals, and product photography from prompts |
 | `hailuo-ai` | `v1.0` | Hailuo AI video generator — create cinematic AI videos from images and text using MiniMax Hailuo models |
 | `happyhorse` | `v1.0` | HappyHorse AI video generator — create cinematic text-to-video and image-to-video clips with native 1080p output |

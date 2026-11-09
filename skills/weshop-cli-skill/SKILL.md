@@ -98,7 +98,7 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `qwen-image-edit` | AI image editing — edit or generate images with natural language instructions using Qwen |
 | `seedream` | AI image generation — create and edit images using Seedream 5.0 Pro or Lite by ByteDance |
 | `face-forge` | AI face morph and face swap — generate or transform portraits |
-| `kling` | AI video generation — create cinematic videos from images and text using Kling |
+| `kling` | Kling video generation — existing Kling 3.0 first/last-frame CLI default, with optional Kling 4.0 Reference and I2V |
 | `z-image` | AI image generation — create high-quality images from text with Z-Image by Alibaba |
 | `pregnant-ai` | Visualize how a person would look pregnant — transforms a portrait photo |
 | `futuristic-elegance` | Dress a person in futuristic harajuku fashion — cinematic sci-fi outfit transformation |
@@ -171,7 +171,7 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `ai-werewolf` | AI werewolf generator — create a dramatic werewolf transformation video from a person photo |
 | `midjourney` | Midjourney image generator — create high-quality images using Midjourney v6.1, v7, or Niji 6 |
 | `sora-2` | Cinematic video generation with realistic physics using OpenAI Sora 2 |
-| `wan-ai` | Wan AI video generator — create AI videos from images and text using Wan AI |
+| `wan-ai` | Wan video generation — unchanged Wan 2.5 CLI default, with optional Wan 3.0 Reference and I2V |
 | `seedance` | Seedance video generator — create cinematic AI videos using Seedance 2.0, 2.0 Mini, or 1.0 by ByteDance |
 | `firered-image-edit` | FireRed image editor — edit or generate images with high fidelity using FireRed open-source model |
 | `grok-imagine` | Grok Imagine image generator — create high-resolution images from text using xAI Aurora |
@@ -222,7 +222,7 @@ Run `weshop <command> --help` to see each command's full parameters, enum values
 | `ai-shirt-remover` | AI shirt remover — transform a shirt outfit photo into a bikini look image or video |
 | `ai-pants-remover` | AI pants remover — transform pants outfit photos into bikini look images or videos |
 | `ai-lingerie-remover` | AI lingerie remover — transform lingerie outfit photos into bikini look images or videos |
-| `nano-banana-edit` | Nano Banana image editor — generate or edit images with Nano Banana, Nano Banana Pro, or Nano Banana 2 using Google's Gemini-based models |
+| `nano-banana-edit` | Nano Banana image editor — generate or edit images with Nano Banana, Pro, 2, or 2.1; CLI default stays Nano Banana 2 |
 | `gpt-image` | GPT Image 2 and 2.5 image generator — create high-quality images, text-rich visuals, and product photography from prompts |
 | `hailuo-ai` | Hailuo AI video generator — create cinematic AI videos from images and text using MiniMax Hailuo models |
 | `happyhorse` | HappyHorse AI video generator — create cinematic text-to-video and image-to-video clips with native 1080p output |
